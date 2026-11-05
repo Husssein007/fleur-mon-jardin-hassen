@@ -33,9 +33,7 @@ tools/make_qr.py               Rebuilds the QR files for any URL
 
 ## The live link
 
-The page is published at **https://claude.ai/artifact/EVopY5keCkyxQnsDsQ5nbf** and the QR code points there.
-
-**Required before printing:** the link is private when first published. Open it, click **Share**, and turn on public link access. Until you do, other phones that scan the code will not be able to open the page.
+The site is hosted on Netlify at **https://fleur-mon-jardin-hassen.netlify.app**, deployed automatically from this repository's `main` branch. The QR code points to that address.
 
 ## Hosting it on your own domain (optional)
 

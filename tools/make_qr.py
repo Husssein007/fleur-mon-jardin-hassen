@@ -4,7 +4,7 @@ Dépendances : opencv-python, rsvg-convert (librsvg)."""
 import sys, re, subprocess, pathlib
 import cv2, numpy as np
 
-URL = sys.argv[1] if len(sys.argv) > 1 else "https://claude.ai/artifact/EVopY5keCkyxQnsDsQ5nbf"
+URL = sys.argv[1] if len(sys.argv) > 1 else "https://fleur-mon-jardin-hassen.netlify.app"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "qr"; OUT.mkdir(exist_ok=True)
 GREEN, RED, DEEP, CREAM, CHAMP = "#2B603F", "#A11E36", "#1F4A33", "#FDF5E6", "#E0C9A4"
